@@ -4,3 +4,7 @@ from django.template import loader
 def home(request):
   template = loader.get_template('home.html')
   return HttpResponse(template.render())
+
+def signup_page(request):
+  template = loader.get_template('signup_page.html')
+  return HttpResponse(template.render())
