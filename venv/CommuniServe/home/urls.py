@@ -4,10 +4,9 @@ from tasks.views import task_list  # Import the task_list view from the other ap
 
 
 urlpatterns = [
-    path('home/', views.home, name='home'),
-    path('home/signup_page/', views.signup_page, name='signup_page'),
-    path('tasks/', task_list, name='task_list'),
-    path('home/organizations/', views.organizations, name='organizations'),
-    path('home/organizations/signup_page/', views.signup_page, name='signup_page'),
-    path('home/localevent/', views.localevent, name='localevent'),
+    path('', views.home, name='home' ),
+    path('signup_page/', views.signup_page, name='signup_page'),
+    path('organizations/', views.organizations, name='organizations'),
+    path('organizations/signup_page/', views.signup_page, name='signup_page'),
+    path('localevent/', views.localevent, name='localevent'),
 ]
