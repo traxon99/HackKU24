@@ -1,4 +1,4 @@
-# HackKU24 - VolunTinder
+# HackKU24 - CommuniServe
 - Jackson Yanek, Mario Sumanasekara, Cole DuBois, Amrit Sian
 
 ## Functionality ⚙️
@@ -24,5 +24,5 @@
 
 ## Technologies 👨‍💻
 
-- **Frontend**: HTML, CSS, React, JavaScript
+- **Frontend**: HTML, CSS, JavaScript
 - **Backend**: PostgreSQL, NodeJS
