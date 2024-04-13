@@ -1,12 +1,68 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CommuniServe</title>
-  </head>
-  <body>
-    <h3>CommuniServe</h3>
-  </body>
+</head>
+<body>
+    <header>
+        <h1>Welcome to CommuniServe</h1>
+        <nav>
+            <ul>
+                <li><a href="#signup">Sign Up</a></li>
+                <li><a href="#login">Log In</a></li>
+                <li><a href="#createTask">Create Task</a></li>
+                <li><a href="#findTask">Find Task</a></li>
+                <li><a href="#localEvents">Local Events</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="signup">
+        <h2>Sign Up</h2>
+        <!-- Sign up form -->
+        <form action="signup.php" method="post">
+            <!-- Form fields for signing up -->
+        </form>
+    </section>
+
+    <section id="login">
+        <h2>Log In</h2>
+        <!-- Log in form -->
+        <form action="login.php" method="post">
+            <!-- Form fields for logging in -->
+        </form>
+    </section>
+
+    <section id="createTask">
+        <h2>Create Task</h2>
+        <!-- Task creation form -->
+        <form action="create_task.php" method="post">
+            <!-- Form fields for creating a task -->
+        </form>
+    </section>
+
+    <section id="findTask">
+        <h2>Find Task</h2>
+        <!-- Task search functionality -->
+        <input type="text" placeholder="Search for tasks">
+        <!-- Display tasks matching search criteria -->
+        <div id="taskResults">
+            <!-- Task listings -->
+        </div>
+    </section>
+
+    <section id="localEvents">
+        <h2>Local Events</h2>
+        <!-- Display local events and organizations -->
+        <div id="events">
+            <!-- Event listings -->
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 CommuniServe</p>
+    </footer>
+</body>
 </html>
