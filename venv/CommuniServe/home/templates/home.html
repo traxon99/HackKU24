@@ -56,7 +56,8 @@
 
 -->
     <h2>Task List</h2>
-    <ul>
+
+    <div class="tasks">
         {% for task in tasks %}
         <div class="card">
             <!--<img src="image.jpg" alt="{{ task.requester }}">-->
@@ -67,8 +68,7 @@
             </div>
         </div>
         {% endfor %}
-
-    </ul>
+    </div>
 
     <!-- ... (other HTML code) ... -->
 

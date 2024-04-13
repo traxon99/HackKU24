@@ -127,3 +127,10 @@ footer {
     max-width: calc(50% - 20px);
     /* Adjust the percentage and subtraction value based on your design */
 }
+
+div.tasks {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
