@@ -21,6 +21,35 @@ header h1 {
     font-family: "Futura", sans-serif;
 }
 
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s; /* Smooth transition for color change */
+}
+
+nav ul li a:hover {
+    color: #00ff7b; /* Change color on hover */
+}
+
+.right-align {
+    float: right;
+  }
+  
 /* Card styles */
 .card {
     width: 300px;
