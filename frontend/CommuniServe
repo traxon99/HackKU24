@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Volunteer Platform</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to your CSS file -->
+</head>
+<body>
+    <header>
+        <h1>Volunteer Platform</h1>
+        <nav>
+            <ul>
+                <li><a href="#signup">Sign Up</a></li>
+                <li><a href="#login">Log In</a></li>
+                <li><a href="#create-task">Create Task</a></li>
+                <li><a href="#find-task">Find Task</a></li>
+                <li><a href="#local-events">Local Events</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Sign Up Section -->
+        <section id="signup">
+            <h2>Sign Up</h2>
+            <p>Create your account to join and track your volunteering hours.</p>
+            <!-- Signup form goes here -->
+        </section>
+
+        <!-- Log In Section -->
+        <section id="login">
+            <h2>Log In</h2>
+            <p>Log into your account to manage your activities.</p>
+            <!-- Login form goes here -->
+        </section>
+
+        <!-- Create Task Section -->
+        <section id="create-task">
+            <h2>Create Task</h2>
+            <p>Organizations can create tasks here for volunteers to find and join.</p>
+            <!-- Task creation form goes here -->
+        </section>
+
+        <!-- Find Task Section -->
+        <section id="find-task">
+            <h2>Find Task</h2>
+            <p>Explore tasks that need volunteers.</p>
+            <!-- Search and list tasks -->
+        </section>
+
+        <!-- Local Events Section -->
+        <section id="local-events">
+            <h2>Local Events</h2>
+            <p>Find local volunteering events and opportunities near you.</p>
+            <!-- Display local events -->
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2024 Volunteer Platform. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script> <!-- Link to your JavaScript file -->
+</body>
+</html>
