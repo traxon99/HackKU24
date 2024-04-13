@@ -13,3 +13,6 @@ def signup_page(request):
   template = loader.get_template('signup_page.html')
   return HttpResponse(template.render())
 
+def organizations(request):
+  template = loader.get_template('organizations.html')
+  return HttpResponse(template.render())
