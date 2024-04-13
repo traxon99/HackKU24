@@ -46,6 +46,46 @@ nav ul li a:hover {
     color: #00ff7b; /* Change color on hover */
 }
 
+/* Style for the cards*/
+.card {
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+.card-content {
+    padding: 20px;
+}
+
+.card-content h2 {
+    margin-top: 0;
+}
+
+.card-content p {
+    color: #666; /*former color #666*/
+}
+
+.card-content a {
+    display: inline-block;
+    background-color: #fff;
+    color: #333;
+    padding: 8px 16px;
+    text-decoration: none;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+
+.card-content a:hover {
+    background-color: #00ff7b;
+}
+
 /* Section styles */
 section {
     padding: 20px;
