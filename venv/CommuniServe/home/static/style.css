@@ -103,3 +103,16 @@ footer {
     padding: 10px;
     text-align: center;
 }
+
+/* Add this new rule */
+.card-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+/* Existing .card styles, with added max-width for better responsiveness */
+.card {
+    /* existing properties */
+    max-width: calc(50% - 20px); /* Adjust the percentage and subtraction value based on your design */
+}
