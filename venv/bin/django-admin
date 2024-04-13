@@ -1,4 +1,4 @@
-#!/Users/jacksonyanek/Documents/Development/HackKU24/venv/bin/python
+#!/Users/jacksonyanek/Documents/Development/HackKU24/venv/bin/python3
 # -*- coding: utf-8 -*-
 import re
 import sys
