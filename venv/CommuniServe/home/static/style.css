@@ -46,6 +46,10 @@ nav ul li a:hover {
     color: #00ff7b; /* Change color on hover */
 }
 
+.right-align {
+    float: right;
+  }
+
 /* Style for the cards*/
 .card {
     width: 300px;
