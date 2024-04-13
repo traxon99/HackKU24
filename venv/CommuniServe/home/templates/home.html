@@ -2,7 +2,8 @@
 <!doctype html>
 <!DOCTYPE html>
 <html lang="en">
-    <link rel="stylesheet" href="{% static 'style.css' %}">
+<link rel="stylesheet" href="{% static 'style.css' %}">
+
 <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -33,7 +34,7 @@
     </header>
 
     <!-- ... (other HTML code) ... -->
-
+    <!--
 <section class="card-container">
     <div class="card">
         <img src="image.jpg" alt="Lawrence Humane Society">
@@ -53,9 +54,13 @@
     </div>
 </section>
 
-<!-- ... (other HTML code) ... -->
+-->
+    {% block task_list %}
+    {% endblock %}
 
-        
+    <!-- ... (other HTML code) ... -->
+
+
 
     <footer>
         <p>&copy; 2024 CommuniServe</p>
