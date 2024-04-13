@@ -55,24 +55,23 @@
 </section>
 
 -->
-    <h2>Task List</h2>
 
     <div class="tasks">
-        {% for task in tasks %}
-        <div class="card">
-            <!--<img src="image.jpg" alt="{{ task.requester }}">-->
-            <div class="card-content">
-                <h2>{{ task.title }}</h2>
-                <p>{{ task.task_description }}</p>
-                <a href="#">Learn More</a>
+        <h2>Featured Opportunities</h2>
+        <ul>
+            {% for task in tasks %}
+            <div class="card">
+                <!--<img src="image.jpg" alt="{{ task.requester }}">-->
+                <div class="card-content">
+                    <h2>{{ task.title }}</h2>
+                    <p>{{ task.task_description }}</p>
+                    <a href="#">Learn More</a>
+                </div>
             </div>
-        </div>
-        {% endfor %}
+            {% endfor %}
     </div>
 
     <!-- ... (other HTML code) ... -->
-
-
 
     <footer>
         <p>&copy; 2024 CommuniServe</p>
