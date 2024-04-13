@@ -55,8 +55,13 @@
 </section>
 
 -->
-    {% block task_list %}
-    {% endblock %}
+    <h2>Task List</h2>
+    <ul>
+        {% for task in tasks %}
+        <li>{{ task.title }}</li>
+        <p>{{ task.task_description }}</p>
+        {% endfor %}
+    </ul>
 
     <!-- ... (other HTML code) ... -->
 
