@@ -20,3 +20,7 @@ def organizations(request):
 def localevent(request):
   template = loader.get_template('localevent.html')
   return HttpResponse(template.render())
+
+def login(request):
+  template = loader.get_template('login.html')
+  return HttpResponse(template.render())
