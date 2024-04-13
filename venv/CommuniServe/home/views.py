@@ -9,6 +9,7 @@ def home(request):
 
     # Pass tasks data to the template
     return render(request, 'home.html', {'tasks': tasks})
+
 def signup_page(request):
   template = loader.get_template('signup_page.html')
   return HttpResponse(template.render())
