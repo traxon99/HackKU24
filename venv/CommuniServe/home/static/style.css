@@ -57,11 +57,18 @@ nav ul li a:hover {
 
 /* Style for the cards*/
 .card {
-    width: 300px;
+    width: 275px;
     border: 1px solid #ccc;
     border-radius: 8px;
     overflow: hidden;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+    max-width: calc(50% - 20px);
+    /* Adjust the percentage and subtraction value based on your design */
+    display: inline-block;
+    margin: auto;
+    height: 250px;
+    padding: 20px;
 }
 
 .card img {
@@ -122,16 +129,6 @@ footer {
 }
 
 /* Existing .card styles, with added max-width for better responsiveness */
-.card {
-    /* existing properties */
-    max-width: calc(50% - 20px);
-    /* Adjust the percentage and subtraction value based on your design */
-    display: inline-block;
-    margin: auto;
-    width: 200px;
-    height: 250px;
-    padding: 10px;
-}
 
 div.tasks {
     margin-left: auto;
